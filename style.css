@@ -93,6 +93,12 @@ h2 {
   line-height: 1.6;
 }
 
+.card-img {
+  width: 60px;        /* tamanho da imagem */
+  height: 60px;
+  margin-bottom: 15px; /* espaço abaixo da imagem */
+}
+
 /* Diferenciação visual das seções */
 #servicos {
   background-color: #eef2f7;
@@ -142,4 +148,5 @@ footer a {
     grid-template-columns: 1fr; /* em telas pequenas vira 1 coluna */
   }
 }
+
 
