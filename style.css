@@ -117,6 +117,46 @@ h2 {
   margin-right: auto; /* centraliza a imagem */
 }
 
+.tags {
+  margin-top: 15px;
+}
+
+.tags span {
+  display: inline-block;
+  padding: 6px 12px;
+  margin: 5px 5px 0 0;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: #fff;
+}
+
+/* Cores personalizadas */
+.tags .alexa { background: #6f42c1; }
+.tags .smarthome { background: #2ecc71; }
+.tags .iot { background: #3498db; }
+.tags .automacao { background: #f39c12; }
+.tags .echo { background: #1abc9c; }
+.tags .rotinas { background: #e67e22; }
+
+.tags .android { background: #3ddc84; }
+.tags .ios { background: #000; }
+.tags .seguranca { background: #e74c3c; }
+.tags .migracao { background: #f39c12; }
+.tags .backup { background: #3498db; }
+
+.tags .cftv { background: #9b59b6; }
+.tags .monitoramento { background: #34495e; }
+.tags .remoto { background: #16a085; }
+.tags .rede { background: #2980b9; }
+
+.tags .hardware { background: #27ae60; }
+.tags .software { background: #8e44ad; }
+.tags .diagnostico { background: #2c3e50; }
+.tags .manutencao { background: #d35400; }
+.tags .suporte { background: #1abc9c; }
+.tags .otimizacao { background: #3498db; }
+
 
 /* Diferenciação visual das seções */
 #servicos {
@@ -167,6 +207,7 @@ footer a {
     grid-template-columns: 1fr; /* em telas pequenas vira 1 coluna */
   }
 }
+
 
 
 
