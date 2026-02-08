@@ -94,3 +94,20 @@ footer a {
   margin: 0 10px;
   text-decoration: none;
 }
+
+/* Espaçamento entre os cards */
+.servicos, .habilidades {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 40px; /* aumenta o espaço entre os blocos */
+  margin-top: 30px; /* espaço acima da seção */
+  margin-bottom: 30px; /* espaço abaixo da seção */
+}
+
+.card {
+  background: #fff;
+  padding: 25px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  margin: 0 auto; /* centraliza quando for um único card */
+}
