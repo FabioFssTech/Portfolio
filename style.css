@@ -33,7 +33,7 @@ nav a {
 /* Seções */
 section {
   padding: 40px;
-  max-width: 900px;
+  max-width: 1000px;
   margin: auto;
 }
 
@@ -41,6 +41,7 @@ h2 {
   color: #2c3e50;
   border-bottom: 2px solid #2c3e50;
   padding-bottom: 5px;
+  margin-bottom: 20px;
 }
 
 /* Layout dos cards */
@@ -52,15 +53,42 @@ h2 {
   margin-bottom: 30px;
 }
 
-
 /* Aparência dos cards */
 .card {
-  background: #fff;
-  padding: 25px;
-  border-radius: 8px;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-  margin: 0 auto; /* centraliza quando for um único card */
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
   text-align: left;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 16px rgba(0,0,0,0.15);
+}
+
+.card h3 {
+  color: #2c3e50;
+  margin-bottom: 15px;
+  font-size: 1.2rem;
+}
+
+.card p, .card ul li {
+  line-height: 1.6;
+}
+
+/* Diferenciação visual das seções */
+#servicos {
+  background-color: #eef2f7;
+  border-radius: 12px;
+  padding: 40px;
+}
+
+#habilidades {
+  background-color: #f9f9f9;
+  border-radius: 12px;
+  padding: 40px;
 }
 
 /* Rodapé */
@@ -78,3 +106,9 @@ footer a {
   text-decoration: none;
 }
 
+/* Responsividade para celular */
+@media (max-width: 768px) {
+  .servicos, .habilidades {
+    grid-template-columns: 1fr; /* em telas pequenas vira 1 coluna */
+  }
+}
