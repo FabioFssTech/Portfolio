@@ -111,4 +111,22 @@ footer a {
   .servicos, .habilidades {
     grid-template-columns: 1fr; /* em telas pequenas vira 1 coluna */
   }
+  
+/* Seção de contato centralizada */
+#contato {
+  text-align: center;       /* centraliza o texto */
+  display: flex;            /* ativa flexbox */
+  flex-direction: column;   /* organiza em coluna */
+  justify-content: center;  /* centraliza verticalmente */
+  align-items: center;      /* centraliza horizontalmente */
+  min-height: 60vh;         /* ocupa 60% da altura da tela */
 }
+
+#contato p, #contato a {
+  line-height: 1.8;         /* melhora a leitura */
+  font-size: 1.1rem;        /* deixa o texto mais agradável */
+}
+  
+}
+
+
