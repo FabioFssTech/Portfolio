@@ -117,10 +117,6 @@ h2 {
   margin-right: auto; /* centraliza a imagem */
 }
 
-.tags {
-  margin-top: 15px;
-}
-
 .tags span {
   display: inline-block;
   padding: 6px 12px;
@@ -129,6 +125,13 @@ h2 {
   font-size: 0.85rem;
   font-weight: 500;
   color: #fff;
+  transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+.tags span:hover {
+  transform: scale(1.1);   /* aumenta levemente */
+  opacity: 0.9;            /* dá um efeito de destaque */
+  cursor: pointer;          /* mostra que é interativo */
 }
 
 /* Cores personalizadas */
@@ -207,6 +210,7 @@ footer a {
     grid-template-columns: 1fr; /* em telas pequenas vira 1 coluna */
   }
 }
+
 
 
 
