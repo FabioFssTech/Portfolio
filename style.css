@@ -1,26 +1,3 @@
-body {
-  font-family: Arial, sans-serif;
-  background-color: #f5f5f5;
-}
-
-.habilidades {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center; /* Centraliza os cards */
-  gap: 20px;
-}
-
-.card {
-  background: #fff;
-  padding: 20px;
-  border-radius: 8px;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-  width: 100%;
-  max-width: 600px; /* largura máxima para ficar retangular */
-  text-align: left;
-
-}
-
 /* Estilo geral */
 body {
   font-family: Arial, sans-serif;
@@ -66,21 +43,26 @@ h2 {
   padding-bottom: 5px;
 }
 
-/* Cards */
+/* Layout dos cards */
 .servicos, .habilidades {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 20px;
+  gap: 40px; /* espaço entre os blocos */
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
+/* Aparência dos cards */
 .card {
   background: #fff;
-  padding: 20px;
+  padding: 25px;
   border-radius: 8px;
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  margin: 0 auto; /* centraliza quando for um único card */
+  text-align: left;
 }
 
-/* Footer */
+/* Rodapé */
 footer {
   background: #2c3e50;
   color: #fff;
@@ -93,21 +75,4 @@ footer a {
   color: #fff;
   margin: 0 10px;
   text-decoration: none;
-}
-
-/* Espaçamento entre os cards */
-.servicos, .habilidades {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 40px; /* aumenta o espaço entre os blocos */
-  margin-top: 30px; /* espaço acima da seção */
-  margin-bottom: 30px; /* espaço abaixo da seção */
-}
-
-.card {
-  background: #fff;
-  padding: 25px;
-  border-radius: 8px;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-  margin: 0 auto; /* centraliza quando for um único card */
 }
