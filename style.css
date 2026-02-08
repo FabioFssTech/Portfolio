@@ -43,6 +43,21 @@ h2 {
   padding-bottom: 5px;
   margin-bottom: 20px;
 }
+/* Seção Sobre Mim */
+#sobre {
+  background-color: #ffffff;   /* fundo branco para destacar */
+  border-radius: 12px;         /* cantos arredondados */
+  padding: 40px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1); /* leve sombra */
+  margin-bottom: 40px;         /* espaço abaixo da seção */
+}
+
+#sobre p {
+  line-height: 1.8;            /* melhora a leitura */
+  font-size: 1.1rem;           /* texto mais agradável */
+  margin-bottom: 15px;         /* espaço entre parágrafos */
+  text-align: justify;         /* alinhamento justificado */
+}
 
 /* Layout dos cards */
 .servicos, .habilidades {
@@ -127,3 +142,4 @@ footer a {
     grid-template-columns: 1fr; /* em telas pequenas vira 1 coluna */
   }
 }
+
