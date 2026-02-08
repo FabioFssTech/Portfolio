@@ -94,10 +94,14 @@ h2 {
 }
 
 .card-img {
-  width: 60px;        /* tamanho da imagem */
-  height: 60px;
-  margin-bottom: 15px; /* espaço abaixo da imagem */
+  width: 120px;       /* aumenta a largura */
+  height: auto;       /* mantém proporção da imagem */
+  margin-bottom: 15px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto; /* centraliza a imagem */
 }
+
 
 /* Diferenciação visual das seções */
 #servicos {
@@ -148,5 +152,6 @@ footer a {
     grid-template-columns: 1fr; /* em telas pequenas vira 1 coluna */
   }
 }
+
 
 
