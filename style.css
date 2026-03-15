@@ -161,6 +161,14 @@ h2 {
 .tags .suporte { background: #1abc9c; }
 .tags .otimizacao { background: #3498db; }
 
+/* Cores personalizadas para Logística */
+.tags .estoque { background: #27ae60; }       /* verde para gestão de estoques */
+.tags .rotas { background: #2980b9; }         /* azul para planejamento de rotas */
+.tags .eficiencia { background: #f39c12; }    /* laranja para eficiência operacional */
+.tags .integracao { background: #8e44ad; }    /* roxo para integração tecnológica */
+.tags .estrategia { background: #34495e; }    /* cinza para visão estratégica */
+.tags .entregas { background: #16a085; }      /* verde-água para entregas */
+
 
 /* Diferenciação visual das seções */
 #servicos {
