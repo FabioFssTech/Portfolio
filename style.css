@@ -169,6 +169,13 @@ h2 {
 .tags .estrategia { background: #34495e; }    /* cinza para visão estratégica */
 .tags .entregas { background: #16a085; }      /* verde-água para entregas */
 
+/* Cores personalizadas para Programação Iniciante */
+.tags .logica { background: #2ecc71; }         /* verde para lógica de programação */
+.tags .algoritmos { background: #3498db; }     /* azul para algoritmos */
+.tags .htmlcss { background: #e67e22; }        /* laranja para HTML & CSS */
+.tags .javascript { background: #f1c40f; }     /* amarelo para JavaScript básico */
+.tags .projetos { background: #9b59b6; }       /* roxo para projetos práticos */
+.tags .aprendizado { background: #34495e; }    /* cinza escuro para aprendizado contínuo */
 
 /* Diferenciação visual das seções */
 #servicos {
