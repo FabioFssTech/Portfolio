@@ -1,2 +1,2 @@
 # Portfolio
-Portfólio profissional de Fabio Santos  Analista de Suporte e Técnico de Informática.
+Portfólio profissional de Fabio Santos sou Especialista em Suporte Tecnológico com mais de 15 anos de trajetória.
